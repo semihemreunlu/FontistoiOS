@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'FontistoiOS_Example' do
+  pod 'FontistoiOS', :path => '../'
+
+  target 'FontistoiOS_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
