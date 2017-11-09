@@ -1,0 +1,22 @@
+{
+  "name": "FontistoiOS",
+  "version": "0.1.0",
+  "summary": "A short description of FontistoiOS.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/semihemreunlu/FontistoiOS",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "semihemreunlu": "semihemreunlu@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/semihemreunlu/FontistoiOS.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "FontistoiOS/Classes/**/*"
+}

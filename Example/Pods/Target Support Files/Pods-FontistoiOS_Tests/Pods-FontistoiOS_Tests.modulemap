@@ -1,0 +1,6 @@
+framework module Pods_FontistoiOS_Tests {
+  umbrella header "Pods-FontistoiOS_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

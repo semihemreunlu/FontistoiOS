@@ -1,0 +1,16 @@
+PODS:
+  - FontistoiOS (0.1.0)
+
+DEPENDENCIES:
+  - FontistoiOS (from `../`)
+
+EXTERNAL SOURCES:
+  FontistoiOS:
+    :path: ../
+
+SPEC CHECKSUMS:
+  FontistoiOS: 8a6e37e61dbb1ca21e6f0e6e049a6131e7e6e263
+
+PODFILE CHECKSUM: 6e8908d892982425921054767fb0b17980bf46b6
+
+COCOAPODS: 1.3.1
