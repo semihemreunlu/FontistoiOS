@@ -7,9 +7,9 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'FontistoiOS'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of FontistoiOS.'
+s.name             = 'FontistoiOS'
+s.version          = '0.1.0'
+s.summary          = 'Fontisto iOS Framework.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -17,26 +17,33 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
+s.description      = <<-DESC
+Fontisto gives you scalable vector icons that can instantly be customized: size, color, drop shadow and anything that can be done with the power of Font.
 
-  s.homepage         = 'https://github.com/semihemreunlu/FontistoiOS'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
-  s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'semihemreunlu' => 'semihemreunlu@gmail.com' }
-  s.source           = { :git => 'https://github.com/semihemreunlu/FontistoiOS.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+- Fontisto is completely free for commercial use. Check out the license.
+- Fontisto icons are vectors, which mean they’re gorgeous on high-resolution displays.
+- Fontisto loves screen readers and helps make your icons accessible on the mobile.
+- Scalable vector graphics means every icon looks good at any size
 
-  s.ios.deployment_target = '8.0'
 
-  s.source_files = 'FontistoiOS/Classes/**/*'
-  
-  # s.resource_bundles = {
-  #   'FontistoiOS' => ['FontistoiOS/Assets/*.png']
-  # }
+DESC
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+s.homepage         = 'https://github.com/semihemreunlu/FontistoiOS'
+# s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
+s.license          = { :type => 'MIT', :file => 'LICENSE' }
+s.author           = { 'semihemreunlu' => 'semihemreunlu@gmail.com' }
+s.source           = { :git => 'https://github.com/semihemreunlu/FontistoiOS.git', :tag => s.version.to_s }
+s.social_media_url = 'https://twitter.com/semihemreunlu'
+
+s.ios.deployment_target = '8.0'
+
+s.source_files = 'FontistoiOS/Classes/**/*'
+s.resources  = 'FontistoiOS/**/*'
+
+# s.public_header_files = 'Pod/Classes/**/*.h'
+s.frameworks = 'UIKit'
+# s.dependency 'AFNetworking', '~> 2.3'
+
+
+
 end

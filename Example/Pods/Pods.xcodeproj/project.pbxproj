@@ -9,8 +9,9 @@
 /* Begin PBXBuildFile section */
 		0043B6DEB1A39B829AD7BE125718C232 /* Pods-FontistoiOS_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 36A593C08B3F33694B43B596013FA954 /* Pods-FontistoiOS_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		12135E11B79946E9AF3636B2ED4D223A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		2382D3821FB4ECC2004FF0A5 /* Font.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2382D37F1FB4ECC2004FF0A5 /* Font.swift */; };
+		2382D3831FB4ECC2004FF0A5 /* String+Fontisto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2382D3811FB4ECC2004FF0A5 /* String+Fontisto.swift */; };
 		443F75CF5598AD49330D738CE40E1517 /* Pods-FontistoiOS_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F2930B145C8807D17CA2385B847CB0B5 /* Pods-FontistoiOS_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5201C8F215A8F64A57275ACAE524E5EF /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADE1C80AC6DFD94D39F7AB91D22302B4 /* ReplaceMe.swift */; };
 		6CFAB688BA4493684362CC13C61F8FAB /* Pods-FontistoiOS_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F9797E83B2F85FE9FFDAD56DA20066E /* Pods-FontistoiOS_Tests-dummy.m */; };
 		7E50D389E5414EB34E7365F34B27146F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		8C09443204E2872DAB9610912A0F6FA1 /* FontistoiOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 868818FEE84326902137B879E83DAF25 /* FontistoiOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -36,6 +37,9 @@
 		0F9797E83B2F85FE9FFDAD56DA20066E /* Pods-FontistoiOS_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FontistoiOS_Tests-dummy.m"; sourceTree = "<group>"; };
 		131FBC40483DF4457C8B7AD3B73E5BF4 /* FontistoiOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FontistoiOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2002297318F40F7756BF9C9767CBB78B /* Pods-FontistoiOS_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-FontistoiOS_Tests.modulemap"; sourceTree = "<group>"; };
+		2382D37F1FB4ECC2004FF0A5 /* Font.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Font.swift; path = FontistoiOS/Classes/Font.swift; sourceTree = "<group>"; };
+		2382D3811FB4ECC2004FF0A5 /* String+Fontisto.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "String+Fontisto.swift"; path = "FontistoiOS/Classes/String+Fontisto.swift"; sourceTree = "<group>"; };
+		2382D38C1FB51054004FF0A5 /* Fontisto.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Fontisto.ttf; path = FontistoiOS/Assets/Fontisto.ttf; sourceTree = "<group>"; };
 		2C242008C0C973F2278BB5881C47BE00 /* Pods-FontistoiOS_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FontistoiOS_Example-dummy.m"; sourceTree = "<group>"; };
 		2F83A892A9954B76DA58367078BD1279 /* Pods_FontistoiOS_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FontistoiOS_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3691B5850670E01DD0CEC32EC0C27320 /* FontistoiOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FontistoiOS-dummy.m"; sourceTree = "<group>"; };
@@ -52,7 +56,6 @@
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9AE0A54C547623AA0A52F3B913D38B20 /* Pods-FontistoiOS_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FontistoiOS_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		9C17CFA30784621B9E907FDBF5CDE390 /* Pods-FontistoiOS_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FontistoiOS_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		ADE1C80AC6DFD94D39F7AB91D22302B4 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = FontistoiOS/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 		C27077680922857EAED03FFFD1632C14 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C4E8C721B4B272DAA6AB453C5A8C88EC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CF1CCC09B63D5ADFA4F336DD2ABCB577 /* Pods-FontistoiOS_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FontistoiOS_Example-acknowledgements.plist"; sourceTree = "<group>"; };
@@ -199,7 +202,9 @@
 		DC18D39088495C041F0C14813D55EE38 /* FontistoiOS */ = {
 			isa = PBXGroup;
 			children = (
-				ADE1C80AC6DFD94D39F7AB91D22302B4 /* ReplaceMe.swift */,
+				2382D37F1FB4ECC2004FF0A5 /* Font.swift */,
+				2382D3811FB4ECC2004FF0A5 /* String+Fontisto.swift */,
+				2382D38C1FB51054004FF0A5 /* Fontisto.ttf */,
 				72D1CF88412DC7FC4064852D2B94E1A2 /* Support Files */,
 			);
 			name = FontistoiOS;
@@ -294,8 +299,16 @@
 		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				KnownAssetTags = (
+					New,
+				);
 				LastSwiftUpdateCheck = 0830;
 				LastUpgradeCheck = 0700;
+				TargetAttributes = {
+					090A8B6F5C5E2DEBC92C5D40168566D1 = {
+						LastSwiftMigration = 0830;
+					};
+				};
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -321,8 +334,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2382D3831FB4ECC2004FF0A5 /* String+Fontisto.swift in Sources */,
+				2382D3821FB4ECC2004FF0A5 /* Font.swift in Sources */,
 				93E83C1DB317BB1CC2514287BD252D86 /* FontistoiOS-dummy.m in Sources */,
-				5201C8F215A8F64A57275ACAE524E5EF /* ReplaceMe.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -452,6 +466,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 056956529B696AEA1E7F1830B287C26E /* FontistoiOS.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -640,6 +655,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 056956529B696AEA1E7F1830B287C26E /* FontistoiOS.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";

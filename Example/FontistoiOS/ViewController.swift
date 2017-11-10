@@ -7,12 +7,18 @@
 //
 
 import UIKit
+import FontistoiOS
 
 class ViewController: UIViewController {
 
+    @IBOutlet var label: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        label.font = Fontisto().loadFont(size: 48)
+        label.text = ":fontisto:".fontistoIcon
     }
 
     override func didReceiveMemoryWarning() {
