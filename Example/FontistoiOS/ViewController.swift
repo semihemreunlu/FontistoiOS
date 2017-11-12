@@ -17,7 +17,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
-        label.font = Fontisto().loadFont(size: 48)
+        label.font = UIFont().Fontisto(size: 48)
         label.text = ":fontisto:".fontistoIcon
     }
 

@@ -5,11 +5,18 @@
 [![License](https://img.shields.io/cocoapods/l/FontistoiOS.svg?style=flat)](http://cocoapods.org/pods/FontistoiOS)
 [![Platform](https://img.shields.io/cocoapods/p/FontistoiOS.svg?style=flat)](http://cocoapods.org/pods/FontistoiOS)
 
+## Features
+
+FontistoiOS is tiny UIFont extension so you can use all specs of UILabel, UITextView etc.
+
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
 ## Requirements
+
+Swift 3.0+ 
+Xcode 8.0+
 
 ## Installation
 
@@ -19,6 +26,10 @@ it, simply add the following line to your Podfile:
 ```ruby
 pod 'FontistoiOS'
 ```
+## Usage
+
+label.font = UIFont().Fontisto(size: fontSize)
+label.text = ":fontName:".fontistoIcon
 
 ## Author
 

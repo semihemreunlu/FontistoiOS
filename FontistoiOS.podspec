@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
 s.name             = 'FontistoiOS'
 s.version          = '0.1.0'
-s.summary          = 'Fontisto iOS Framework.'
+s.summary          = 'Fontisto icon font library for iOS Framework.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -25,6 +25,10 @@ Fontisto gives you scalable vector icons that can instantly be customized: size,
 - Fontisto loves screen readers and helps make your icons accessible on the mobile.
 - Scalable vector graphics means every icon looks good at any size
 
+Usage
+
+label.font = UIFont().Fontisto(size: 48)
+label.text = ":fontName:".fontistoIcon
 
 DESC
 
@@ -38,12 +42,14 @@ s.social_media_url = 'https://twitter.com/semihemreunlu'
 s.ios.deployment_target = '8.0'
 
 s.source_files = 'FontistoiOS/Classes/**/*'
-s.resources  = 'FontistoiOS/**/*'
+s.resource_bundle = { 'FontistoiOS' => ['FontistoiOS/Fonts/fontisto.ttf'] }
+
+#.resource_bundles = {
+#   'FontistoiOS' => ['FontistoiOS/Assets/*.ttf']
+#}
 
 # s.public_header_files = 'Pod/Classes/**/*.h'
 s.frameworks = 'UIKit'
 # s.dependency 'AFNetworking', '~> 2.3'
-
-
 
 end

@@ -1,6 +1,6 @@
 //
 //  String+Fontisto.swift
-//  fontDeneme
+//  FontistoiOS
 //
 //  Created by Semih Emre ÜNLÜ on 29/10/2017.
 //  Copyright © 2017 Semih Emre ÜNLÜ. All rights reserved.

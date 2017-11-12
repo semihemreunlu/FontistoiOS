@@ -11,6 +11,8 @@
 		12135E11B79946E9AF3636B2ED4D223A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		2382D3821FB4ECC2004FF0A5 /* Font.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2382D37F1FB4ECC2004FF0A5 /* Font.swift */; };
 		2382D3831FB4ECC2004FF0A5 /* String+Fontisto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2382D3811FB4ECC2004FF0A5 /* String+Fontisto.swift */; };
+		23DAD6B31FB8B4AD008A61D0 /* fontisto.ttf in Sources */ = {isa = PBXBuildFile; fileRef = 2382D38C1FB51054004FF0A5 /* fontisto.ttf */; };
+		23DAD6B91FB8C3CF008A61D0 /* fontisto.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2382D38C1FB51054004FF0A5 /* fontisto.ttf */; };
 		443F75CF5598AD49330D738CE40E1517 /* Pods-FontistoiOS_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F2930B145C8807D17CA2385B847CB0B5 /* Pods-FontistoiOS_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6CFAB688BA4493684362CC13C61F8FAB /* Pods-FontistoiOS_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F9797E83B2F85FE9FFDAD56DA20066E /* Pods-FontistoiOS_Tests-dummy.m */; };
 		7E50D389E5414EB34E7365F34B27146F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
@@ -39,7 +41,7 @@
 		2002297318F40F7756BF9C9767CBB78B /* Pods-FontistoiOS_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-FontistoiOS_Tests.modulemap"; sourceTree = "<group>"; };
 		2382D37F1FB4ECC2004FF0A5 /* Font.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Font.swift; path = FontistoiOS/Classes/Font.swift; sourceTree = "<group>"; };
 		2382D3811FB4ECC2004FF0A5 /* String+Fontisto.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "String+Fontisto.swift"; path = "FontistoiOS/Classes/String+Fontisto.swift"; sourceTree = "<group>"; };
-		2382D38C1FB51054004FF0A5 /* Fontisto.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Fontisto.ttf; path = FontistoiOS/Assets/Fontisto.ttf; sourceTree = "<group>"; };
+		2382D38C1FB51054004FF0A5 /* fontisto.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = fontisto.ttf; path = FontistoiOS/Fonts/fontisto.ttf; sourceTree = "<group>"; };
 		2C242008C0C973F2278BB5881C47BE00 /* Pods-FontistoiOS_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FontistoiOS_Example-dummy.m"; sourceTree = "<group>"; };
 		2F83A892A9954B76DA58367078BD1279 /* Pods_FontistoiOS_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FontistoiOS_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3691B5850670E01DD0CEC32EC0C27320 /* FontistoiOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FontistoiOS-dummy.m"; sourceTree = "<group>"; };
@@ -204,7 +206,7 @@
 			children = (
 				2382D37F1FB4ECC2004FF0A5 /* Font.swift */,
 				2382D3811FB4ECC2004FF0A5 /* String+Fontisto.swift */,
-				2382D38C1FB51054004FF0A5 /* Fontisto.ttf */,
+				2382D38C1FB51054004FF0A5 /* fontisto.ttf */,
 				72D1CF88412DC7FC4064852D2B94E1A2 /* Support Files */,
 			);
 			name = FontistoiOS;
@@ -248,6 +250,7 @@
 				1C64A58DD9C83440637FDC04EEB0A5C3 /* Sources */,
 				1A31E6401BAD635E116D22AE0E5BC380 /* Frameworks */,
 				64BD6C877CB40B6BD0E1EF548605C59F /* Headers */,
+				23DAD6B81FB8C3C7008A61D0 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -329,11 +332,23 @@
 		};
 /* End PBXProject section */
 
+/* Begin PBXResourcesBuildPhase section */
+		23DAD6B81FB8C3C7008A61D0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23DAD6B91FB8C3CF008A61D0 /* fontisto.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		1C64A58DD9C83440637FDC04EEB0A5C3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				23DAD6B31FB8B4AD008A61D0 /* fontisto.ttf in Sources */,
 				2382D3831FB4ECC2004FF0A5 /* String+Fontisto.swift in Sources */,
 				2382D3821FB4ECC2004FF0A5 /* Font.swift in Sources */,
 				93E83C1DB317BB1CC2514287BD252D86 /* FontistoiOS-dummy.m in Sources */,
